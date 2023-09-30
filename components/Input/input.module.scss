@@ -1,0 +1,18 @@
+.container {
+  padding: 18px;
+  background-color: #ffc505;
+  border: 2px solid #ffc505;
+  border-radius: 16px;
+  font-size: 16px;
+  color: black;
+  margin-top: 20px;
+  width: 100%;
+
+  &:hover {
+    background-color: #ffc50555;
+  }
+
+  &::placeholder {
+    color: grey;
+  }
+}
